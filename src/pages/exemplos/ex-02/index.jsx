@@ -1,7 +1,7 @@
-import styles from'./index.module.css';
+import'./index.css';
 function Exemplo2(){
     return(
-    <div className={styles.containerEx2}>
+    <div className= 'containerEx2'>
         <h1>Aula de React com Vitejs</h1>
         <h2>Estilizacao css</h2>
         <h3>Uso de css em diferentes componentes</h3>
