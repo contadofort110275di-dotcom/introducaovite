@@ -1,14 +1,16 @@
-import'./index.css';
-function Exemplo2(){
-    return(
-    <div className= 'containerEx2'>
-        <h1>Aula de React com Vitejs</h1>
-        <h2>Estilizacao css</h2>
-        <h3>Uso de css em diferentes componentes</h3>
-        <p>Eu nao fiz nada</p>
-        <label>Exemplo Label</label>
-        <span>Exemplo Span</span>
+import styles from './index.module.css';
+
+function Exemplo02() {
+  return (
+    <div className={styles.container}>
+      <h1>Exemplo 2</h1>
+      <h2>Estilização CSS</h2>
+      <h3>Uso de Css em diferentes componentes</h3>
+      <p>Eu não fiz nada</p>
+      <label>Exemplo Label</label>
+      <span>Exemplo Span</span>
     </div>
-    )
+  )
 }
-export default Exemplo2;
+
+export default Exemplo02;
