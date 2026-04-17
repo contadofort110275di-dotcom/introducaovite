@@ -10,12 +10,16 @@
           <div className={styles.containerCards}>   
             <h2>Exemplos</h2>       
             <Link to="/exemplo/1">Exemplo 1 - Componente básico</Link>
-            <Link to="/exemplo/2">Exemplo 2 - Uso de module CSS</Link>          
+            <Link to="/exemplo/2">Exemplo 2 - Uso de module CSS</Link>     
+            <Link to="/exemplo/3">Exemplo 3 - Uso de module CSS</Link>     
+            <Link to="/exemplo/4">Exemplo 4 - Uso de module CSS</Link>          
           </div>
           
           <div className={styles.containerCards}>    
             <h2>Atividades</h2>      
             <Link to="/atividade/atv-01">Atividade1 - Uso de CSS</Link> 
+            <Link to="/atividade/atv-02">Atividade2 - Uso de CSS</Link> 
+            <Link to="/atividade/atv-03">Atividade3 - Uso de CSS</Link> 
           </div>
       </div>
     )
